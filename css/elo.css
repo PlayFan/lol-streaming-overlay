@@ -1,0 +1,65 @@
+body{
+		font-family: 'Oswald', sans-serif;
+		margin: 0;
+}
+
+
+img{
+	width: 168px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+
+#leagueInfo{
+	float: right;
+	width: 0px;
+}
+
+
+#leagueInfo img{
+	text-align: center;
+}
+.username{
+	position: relative;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	margin: auto;
+	text-align: center;
+	font-size: 24px;
+	width: 200px;
+	color: white;
+	margin-bottom: -20px;
+
+}
+.division,.lp,.winlosses{
+	display: block;
+	position: relative;
+	top: -15px;
+	margin: auto;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 168px;
+	color: white;
+}
+
+.vic{
+	color: green;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.def{
+	color: red;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

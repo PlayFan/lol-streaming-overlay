@@ -1,0 +1,347 @@
+html{    
+	background:url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}
+body{
+		font-family: 'Oswald', sans-serif;
+		margin: 0;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#summoner{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#summoner:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:70px;
+	width: 45%;
+	position: relative;
+	display: inline-block;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  vertical-align: middle;
+}
+
+#main-div{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+}
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+#buttonblue2{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:12px;
+	padding-top:12px;
+	padding-bottom:12px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+#buttonblue3{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:right;
+	width: 50%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:12px;
+	padding-top:12px;
+	padding-bottom:12px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+
+
+#button-blue:hover,#buttonblue2:hover,#buttonblue3:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+.submit:hover {
+	color: #3498db;
+}
+ 
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+img{
+	width: 168px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+#imgLoL img{
+	margin: 0 auto;
+	position: relative;
+	display: block;
+	width: 25%;
+	height: 25%;
+	text-align: center;
+	top: 100px;
+}
+#runesInfo{
+	display: inline-block;
+	position: relative;
+	width: 500px;
+	height: auto;
+}
+#masteriesInfo{
+	display: inline-block;
+	width:auto;
+	height: auto;
+	float: right;
+}
+
+#leagueInfo{
+	float: right;
+	width: 0px;
+}
+
+#leagueInfo2{
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
+ }
+
+ #twentyfive{
+ 	width: 25%;
+ 	position: relative;
+ 	display: inline-block;
+ }
+
+
+#leagueInfo img{
+	text-align: center;
+}
+.username{
+	position: relative;
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	margin: auto;
+	text-align: center;
+	font-size: 24px;
+	width: 200px;
+	color: white;
+	margin-bottom: -20px;
+
+}
+.division,.lp,.winlosses{
+	display: block;
+	position: relative;
+	top: -15px;
+	margin: auto;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	width: 168px;
+	color: white;
+}
+
+.vic{
+	color: green;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.def{
+	color: red;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#statsLeague{
+	margin-top: 2px;
+}
+
+#masteries_Container{
+	position: relative;
+	display: block;
+	width: 827px;
+	height: 479px;
+	margin: auto;
+	margin-top: 100px;
+	background-image: url("../img/masteryback.jpg");
+
+}
+#masteries_Ferocity{
+	position: relative;
+	display: inline-block;
+	width: 270px;
+	height: 479px;
+}
+#masteries_Cunning{
+	position: relative;
+	display: inline-block;
+	width: 270px;
+	height: 479px;
+}
+#masteries_Resolve{
+	position: relative;
+	display: inline-block;
+	width: 270px;
+	height: 479px;
+}
+#logo_Ferocity{
+	height: 440px;
+}
+#logo_Cunning{
+	height: 440px;
+}
+#logo_Resolve{
+	height: 440px;
+}
+#text_Ferocity{
+	color: white;
+	margin-left: 25px;
+}
+#text_Cunning{
+	color: white;
+	margin-left: 25px;
+}
+#text_Resolve{
+	color: white;
+	margin-left: 25px;
+}
+.masteryWidthLimit{
+	width:260px;
+}
+#mastery-102,#mastery-104,#mastery-107,#mastery-109,#mastery-111,#mastery-113,#mastery-116,#mastery-118,#mastery-121,#mastery-123,#mastery-125,#mastery-127,#mastery-130,#mastery-132,#mastery-134,#mastery-136,#mastery-138,#mastery-140{
+	padding-left:  20px;
+	padding-top: 15px;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: grayscale(100%);
+}
+#mastery-103,#mastery-108,#mastery-112,#mastery-117,#mastery-122,#mastery-126,#mastery-131,#mastery-135,#mastery-139{
+	padding-left:  90px;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: grayscale(100%);
+}
+
+#mastery-105,#mastery-106,#mastery-110,#mastery-114,#mastery-115,#mastery-119,#mastery-120,#mastery-124,#mastery-128,#mastery-129,#mastery-133,#mastery-137,#mastery-141,#mastery-142{
+	padding-left:  20px;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: grayscale(100%);
+}
+
+#mastery-text-102,#mastery-text-103,#mastery-text-104,#mastery-text-105,#mastery-text-106,#mastery-text-107,#mastery-text-108,#mastery-text-109,#mastery-text-110,
+#mastery-text-111,#mastery-text-112,#mastery-text-113,#mastery-text-114,#mastery-text-115,#mastery-text-116,#mastery-text-117,#mastery-text-118,#mastery-text-119,
+#mastery-text-120,#mastery-text-121,#mastery-text-122,#mastery-text-123,#mastery-text-124,#mastery-text-125,#mastery-text-126,#mastery-text-127,#mastery-text-128,
+#mastery-text-129,#mastery-text-130,#mastery-text-131,#mastery-text-132,#mastery-text-133,#mastery-text-134,#mastery-text-135,#mastery-text-136,#mastery-text-137,
+#mastery-text-138,#mastery-text-139,#mastery-text-140,#mastery-text-141,#mastery-text-142{
+	position: absolute;
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 25px;
+	height: 12px;
+	bottom: -5px;
+	right: 1px;
+	background-color: black;
+	color: orange;
+	text-align: center;
+	font-size: 10px;
+	border: 1px solid orange;
+	line-height: 13px;
+}
+
